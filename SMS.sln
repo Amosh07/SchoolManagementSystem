@@ -11,21 +11,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{A91D5A12-AD2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{53E60B03-ADE8-4DA2-881B-D58CB429F73A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Application", "SMS.Application\SMS.Application.csproj", "{34FE22AB-1862-4B61-A680-2A3E51FCE4E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMS.Application", "SMS.Application\SMS.Application.csproj", "{34FE22AB-1862-4B61-A680-2A3E51FCE4E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Domain", "SMS.Domain\SMS.Domain.csproj", "{ED871C20-76DE-4515-86BD-4B9BD8779907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMS.Domain", "SMS.Domain\SMS.Domain.csproj", "{ED871C20-76DE-4515-86BD-4B9BD8779907}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C6575F9C-8787-4A7D-A75D-503572B7A8D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Helper", "SMS.Helper\SMS.Helper.csproj", "{16C09DC1-4511-4223-883A-61C4FD11E6FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMS.Helper", "SMS.Helper\SMS.Helper.csproj", "{16C09DC1-4511-4223-883A-61C4FD11E6FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Identity", "SMS.Identity\SMS.Identity.csproj", "{CD88224E-0567-4A72-BCDB-C55B000E5454}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMS.Identity", "SMS.Identity\SMS.Identity.csproj", "{CD88224E-0567-4A72-BCDB-C55B000E5454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Infrastructure", "SMS.Infranstucture\SMS.Infrastructure.csproj", "{3806ED3C-B885-4F53-979B-709F51187A6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMS.Infrastructure", "SMS.Infranstucture\SMS.Infrastructure.csproj", "{3806ED3C-B885-4F53-979B-709F51187A6D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrators", "Migrators", "{BF86038E-B904-40F3-AE9F-E6D1F8B368F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Migrators.PostgreSQL", "SMS.Migrators.PostgreSQL\SMS.Migrators.PostgreSQL.csproj", "{F2727AEC-44E7-43C2-AF3B-D2912C039FDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMS.Migrators.PostgreSQL", "SMS.Migrators.PostgreSQL\SMS.Migrators.PostgreSQL.csproj", "{F2727AEC-44E7-43C2-AF3B-D2912C039FDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

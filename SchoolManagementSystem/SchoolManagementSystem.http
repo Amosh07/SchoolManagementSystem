@@ -1,6 +1,6 @@
-@SchoolManagementSystem_HostAddress = http://localhost:5062
+@SMS_HostAddress = http://localhost:5062
 
-GET {{SchoolManagementSystem_HostAddress}}/weatherforecast/
+GET {{SMS_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

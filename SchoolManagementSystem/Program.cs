@@ -1,5 +1,4 @@
-using SchoolManagementSystem.Interface;
-using SchoolManagementSystem.Service;
+using SMS.Infrastructure.Dependency;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,8 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//Injections//
-builder.Services.AddScoped<IUserInterface , UserService>();
+builder.Services.AddDependencyServices();
 
 var app = builder.Build();
 
