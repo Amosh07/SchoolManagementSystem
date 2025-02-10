@@ -48,6 +48,11 @@ namespace SMS.Infrastructure.Persistence
         public IDbConnection Connection => Database.GetDbConnection();
         #endregion
 
+        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+
+            return await base.SaveChangesAsync(cancellationToken);
+        }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
@@ -136,6 +141,21 @@ namespace SMS.Infrastructure.Persistence
             .WithMany()
             .HasForeignKey(t => t.DeletedBy)
             .OnDelete(DeleteBehavior.Restrict);
+            #endregion
+
+            #region Relationship Mapping Configuration
+
+            //builder.Entity<User>()
+            //.HasOne(u => u.Teacher)
+            //.WithMany()
+            //.HasForeignKey(u => u.TeacherId)
+            //.OnDelete(DeleteBehavior.Restrict);
+
+            //builder.Entity<User>()
+            //.HasOne(u => u.Student)
+            //.WithMany()
+            //.HasForeignKey(u => u.StudentId)
+            //.OnDelete(DeleteBehavior.Restrict
             #endregion
         }
     }

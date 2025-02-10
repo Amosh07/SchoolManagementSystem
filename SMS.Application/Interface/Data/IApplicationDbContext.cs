@@ -40,6 +40,9 @@ namespace SMS.Application.Interface.Data
         DbSet<Teacher> Teachers { get; set; }
         #endregion
 
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken);
+
+
         IDbConnection Connection { get; }
 
     }

@@ -1,4 +1,6 @@
 ﻿using SMS.Domain.Common.Base;
+using SMS.Domain.Entities.Identity;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SMS.Domain.Entities
 {
@@ -11,5 +13,10 @@ namespace SMS.Domain.Entities
         public string? Number { get; set; }
 
         public string? Email { get; set; }
+
+        [ForeignKey(nameof(Users))]
+        public Guid? UserId { get; set; }
+
+        public virtual User? Users { get; set; }
     }
 }
