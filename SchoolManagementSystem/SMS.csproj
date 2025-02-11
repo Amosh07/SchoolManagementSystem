@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SMS.Identity\SMS.Identity.csproj" />
     <ProjectReference Include="..\SMS.Infranstucture\SMS.Infrastructure.csproj" />
   </ItemGroup>
 
