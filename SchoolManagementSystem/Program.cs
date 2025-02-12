@@ -19,6 +19,8 @@ services.AddDependencyServices();
 
 services.AddIdentityServices(configurations);
 
+services.AddInfrastuctureService(configurations);
+
 await services.AddDataSeedMigrationService();
 
 // Add services to the container.
