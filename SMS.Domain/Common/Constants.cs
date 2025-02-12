@@ -19,5 +19,9 @@
         {
             public const string Npgsql = "postgresql";
         }
+        public abstract class Cors
+        {
+            public const string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+        }
     }
 }
